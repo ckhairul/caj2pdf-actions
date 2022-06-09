@@ -1,5 +1,6 @@
 name: caj2pdf
-on: push
+on:
+  workflow_dispatch:
 jobs:
   ConvertActions:
     runs-on: windows-latest
